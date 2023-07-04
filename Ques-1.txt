@@ -1,0 +1,115 @@
+//1. Explain all the CSS positions(static, fixed, sticky, relative, absolute) with one code example each
+// Static
+
+!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Static Box</div>
+</body>
+</html>
+
+// fixed
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .box {
+            position: fixed;
+            top: 50px;
+            left: 50px;
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Fixed Box</div>
+    <p>Lorem ipsum dolor sit amet...</p>
+</body>
+</html>
+
+// sticky
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .box {
+            position: sticky;
+            top: 50px;
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Sticky Box</div>
+    <p>This is sticky</p>
+</body>
+</html>
+
+//Relative 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .box {
+            position: relative;
+            top: 50px;
+            left: 50px;
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Relative Box</div>
+    <p>This is Relative</p>
+</body>
+</html>
+
+// Absolute
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            position: relative;
+            width: 400px;
+            height: 300px;
+            background-color: lightgray;
+        }
+
+        .box {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            width: 200px;
+            height: 200px;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Absolute Box</div>
+    </div>
+    <p>This is Absolute Box</p>
+</body>
+</html>
+
