@@ -1,0 +1,11 @@
+// 3. Explain what is execution context in detail with diagram
+
+Execution context is an abstract concept in JavaScript that defines the environment in which JavaScript code is executed. It consists of variables, functions, and the scope chain. Understanding execution context is crucial for understanding how JavaScript code is executed.
+
+When JavaScript code is run, it is executed within one or more execution contexts. Each execution context has a specific scope and a set of variables and functions accessible within that scope. There are three types of execution contexts in JavaScript:
+
+
+1. Global Execution Context:
+2.Function Execution Context:
+3.Eval Execution Context:
+4. 
